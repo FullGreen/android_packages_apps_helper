@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <scale factor="1" />
+    <iconback img1="folder_01" />
+
+    <item component="ComponentInfo{org.cyanogenmod.audiofx/org.cyanogenmod.audiofx.ActivityMusic}" drawable="audiofx" />
+    <item component="ComponentInfo{com.cyanogenmod.filemanager/com.cyanogenmod.filemanager.activities.NavigationActivity}" drawable="filemanager" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="ic_launcher_settings" />
+    <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadList}" drawable="ic_launcher_download" />
+    <item component="ComponentInfo{com.android.email/com.android.email.activity.Welcome}" drawable="ic_launcher_mail" />	
+	<item component="ComponentInfo{org.cyanogenmod.theme.chooser/org.cyanogenmod.theme.chooser.ChooserActivity}" drawable="ic_launcher_cmtheme" />
+	<item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.SoundRecorder}" drawable="ic_launcher_soundrecorder" />
+	<item component="ComponentInfo{org.cyanogenmod.snap}" drawable="ic_launcher_camera" />
+    <item component="ComponentInfo{com.android.gallery3d}" drawable="ic_launcher_gallery" />
+    <item component="ComponentInfo{com.android.calculator2}" drawable="ic_launcher_calculator" />
+    <item component="ComponentInfo{com.android.messaging}" drawable="ic_launcher_meassaging" />
+    <item component="ComponentInfo{com.android.deskclock}" drawable="ic_launcher_alarmclock" />
+    <item component="ComponentInfo{com.cyanogenmod.eleven}" drawable="ic_launcher_eleven" />
+    <item component="ComponentInfo{org.cyanogenmod.gello.browser}" drawable="ic_launcher_browser" />
+    <item component="ComponentInfo{com.android.dialer}" drawable="ic_launcher_phone" />
+    <item component="ComponentInfo{com.android.contacts}" drawable="ic_contacts_clr_48cv_44dp" />
+    <item component="ComponentInfo{com.android.calendar}" drawable="ic_launcher_calendar" />
+    <item component="ComponentInfo{org.cyanogenmod.screencast}" drawable="ic_launcher_screencast" />
+
+</resources>

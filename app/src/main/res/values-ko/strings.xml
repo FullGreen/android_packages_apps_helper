@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">헬퍼</string>
+    <string name="theme_author">Fullgreen</string>
+    <string name="help">도움말</string>
+    <string name="bug_report">버그 제보</string>
+    <string name="burn">번인 테스트</string>
+    <string name="information">정보</string>
+</resources>
