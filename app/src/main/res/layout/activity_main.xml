@@ -65,7 +65,7 @@
     <Button
         android:layout_width="110dp"
         android:layout_height="110dp"
-        android:text="@string/burn"
+        android:text="@string/kernel_config"
         android:id="@+id/button4"
         android:background="#ffffff"
         android:onClick="burn"

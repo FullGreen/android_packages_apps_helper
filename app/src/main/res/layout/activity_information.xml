@@ -8,267 +8,123 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.fullgreen.flarerom.InformationActivity"
-    android:background="#95a6a5">
+    android:background="#ffffff">
 
-    <TextView
-        android:id="@+id/product_rom"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="ro.product.model"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="0dp"
-        android:textColor="#ffffff"
-        android:layout_alignWithParentIfMissing="false" />
+    <include layout="@layout/header" />
 
-    <TextView
-        android:id="@+id/product_wifi"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="ro.product.model"
-        android:layout_marginTop="15dp"
-        android:textColor="#ffffff"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_marginTop="300dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:id="@+id/product_kernel"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="ro.product.model"
-        android:layout_marginTop="30dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/product_device"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="ro.product.model"
-        android:layout_marginTop="45dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:layout_alignParentStart="true">
 
     <TextView
         android:id="@+id/product_model"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
         android:text="ro.product.model"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/product_manufacturer"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="75dp"
-        android:text="product_manufacturer"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/product_codename"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="90dp"
-        android:text="product_codename"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/product_abi"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="105dp"
-        android:text="product_abi"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/product_abi2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        android:text="product_abi2"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/product_bootloader"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="135dp"
         android:text="product_bootloader"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/product_display"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
         android:text="product_display"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/product_name"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
-        android:text="product_name"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/product_hardware"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="195dp"
         android:text="product_hardware"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/product_bbootloader"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="210dp"
-        android:text="product_bbootloader"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/product_babi2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="225dp"
-        android:text="product_babi2"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/product_buildid"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="240dp"
         android:text="product_buildid"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/product_sdk"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="255dp"
         android:text="product_sdk"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/product_release"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="270dp"
         android:text="product_release"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/product_security_patch"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="285dp"
         android:text="product_security_patch"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/product_date"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
         android:text="product_date"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/product_type"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="315dp"
-        android:text="product_type"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/product_user"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="330dp"
         android:text="product_user"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/product_host"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="345dp"
-        android:text="product_host"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/product_flavor"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="360dp"
-        android:text="product_flavor"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/product_board"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="375dp"
-        android:text="product_board"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/product_platform"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="390dp"
         android:text="product_product_platform"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff" />
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/product_wifimac"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="product_wifimac"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/product_wifimoudle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="product_wifimoudle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    </LinearLayout>
 
 </RelativeLayout>

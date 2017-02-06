@@ -5,6 +5,11 @@
     <string name="theme_email">abin030187@naver.com</string>
     <string name="help">Help</string>
     <string name="bug_report">Bug report</string>
-    <string name="burn">Burn test</string>
     <string name="information">Information</string>
+    <string name="kernel_config">kernel configuration</string>
+    <string name="notfound_config">I can not find the kernel configuration application. \n Please install the kernel configuration application.</string>
+    <string name="internet">Can not find connected WiFi or mobile data.</string>
+    <string name="c1skt">Samsung Galaxy S3 LTE SKT</string>
+    <string name="c1ktt">Samsung Galaxy S3 LTE KT</string>
+    <string name="c1lgt">Samsung Galaxy S3 LTE LG</string>
 </resources>
